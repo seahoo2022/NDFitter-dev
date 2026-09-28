@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "NDFitter"
+version = "1.0.0"
+description = "Multidimensional fitting with Gaussian processes and neural networks"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+dependencies = ["numpy", "torch", "matplotlib", "scikit-learn"]
+
+[project.optional-dependencies]
+gpytorch = ["gpytorch"]
+gp = ["GPy"]
+mlp = ["transformers", "tensorboard"]
+
+[tool.setuptools.packages.find]
+include = ["NDFitter*"]
+
+[tool.setuptools]
+include-package-data = false

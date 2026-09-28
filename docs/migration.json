@@ -1,0 +1,150 @@
+{
+  "source": "Legacy local working tree, including uncommitted source changes",
+  "scope": "All Python modules; no historical Git objects, datasets, notebooks, models or logs",
+  "files": [
+    {
+      "path": "NDFitter/GP/__init__.py",
+      "original_sha256": "ac7c60b83b8128794ef65d91f094ea27fad31645cbeb409e3a38e8556d05a0c0",
+      "migrated_sha256": "fcfb4e17b89614a9da9a29a20a38841095e59a066fe2bc7106aa9eae61456522",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/GP/train.py",
+      "original_sha256": "0b412add5de42232cc99b0b4b9a7558492e964e19da6832427d3cf6c69e35f15",
+      "migrated_sha256": "f1fea0a6d8110998ee98a2d17ca2a5491f58d11445be93d9b68bac84e87d8444",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/GPyTorch/__init__.py",
+      "original_sha256": "91dcaaece21a1cb1b981263e7bd38f891c424f7799cb06de7da44e3674187c11",
+      "migrated_sha256": "bcf0e0eb763a8d2147b28ed2ef7cb3215bcbbcd2d509a61c0cb564fe18b8379d",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/GPyTorch/train.py",
+      "original_sha256": "3c776df32dc5c81c535bef64d6d214a8666fc72ad1108e200a26fd0d5487d67a",
+      "migrated_sha256": "66a401045eed96b43f2055092f1df69c8632a6034ebd4bc8ed5bc2f635fd1faf",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/GPyTorch/train_1d.py",
+      "original_sha256": "60b0e84c1c40ef6d68e8a6767b0071f5df2a14c256807f3b5b383cd51f1d9cf7",
+      "migrated_sha256": "1adbca5743b6229bfa775d40fab34449961a2150f2a942777fd814591db315f7",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/GPyTorch/train_yscaled.py",
+      "original_sha256": "6fe3e1451fde45b62e72c4eb583fa02944ac8b54fe69bb66c65d5ecd27e77b31",
+      "migrated_sha256": "14d9d4a62dc3b7ef386f06bd7f484c859a0f014b87d2c678c0e11676a26067aa",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/GPyTorch/train_yscaled_2by2.py",
+      "original_sha256": "ee2bc0fa030f6941685e4eb0d8455641f7da443a36f67e21e443e5b3bf30b3c3",
+      "migrated_sha256": "46ee69e9165c3c2d46f9a19e62789ebb586c186bf66faa98c665167a5748dd9b",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/MLP/__init__.py",
+      "original_sha256": "2f40e8a392ae87ad70826d167bba1786ee3896f5cc61454edf2652d1b2b6634c",
+      "migrated_sha256": "714f490fc398db7d4f32a72532c08138fb8e6ca633de3d4a7e69ec40f5ab19b8",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/MLP/data/__init__.py",
+      "original_sha256": "f0ca6b92180fab2aefa85d5957b25abca1c325c98865e0f2a2d0a77add217a2a",
+      "migrated_sha256": "f0ca6b92180fab2aefa85d5957b25abca1c325c98865e0f2a2d0a77add217a2a",
+      "modified_for_portability": false
+    },
+    {
+      "path": "NDFitter/MLP/data/dataloader.py",
+      "original_sha256": "1a4a4fed3e0b85866ba50427eab519b84b8bbc1c43aaaf132843c86df5381457",
+      "migrated_sha256": "e3f08ae4e8f226a077f67f6dcac50b3bef99712d3fe8dbe8de73f78d2354f245",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/MLP/data/dataset.py",
+      "original_sha256": "75469d527eda91ad08786c8bcd6a316ba9ac59c8b90c1619912012467317f090",
+      "migrated_sha256": "ba98dd1eb239f3f369c75be306331fcd12362a43a127087db4a83c4791adedab",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/MLP/data/preprocessing.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "migrated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified_for_portability": false
+    },
+    {
+      "path": "NDFitter/MLP/evaluate.py",
+      "original_sha256": "454ea7694dc0e77e5736c6bb38969a948040fbcef3db3be3b311d59a4790c26d",
+      "migrated_sha256": "454ea7694dc0e77e5736c6bb38969a948040fbcef3db3be3b311d59a4790c26d",
+      "modified_for_portability": false
+    },
+    {
+      "path": "NDFitter/MLP/model/__init__.py",
+      "original_sha256": "aae04d8161f196f69fa536441efefba52399f06b8fbb3d6adfb96c7357a1408a",
+      "migrated_sha256": "aae04d8161f196f69fa536441efefba52399f06b8fbb3d6adfb96c7357a1408a",
+      "modified_for_portability": false
+    },
+    {
+      "path": "NDFitter/MLP/model/model.py",
+      "original_sha256": "6e341ed47e7898e8b9e007362480d693a152433fabb36fc8da053ae9a4ea00d9",
+      "migrated_sha256": "6e341ed47e7898e8b9e007362480d693a152433fabb36fc8da053ae9a4ea00d9",
+      "modified_for_portability": false
+    },
+    {
+      "path": "NDFitter/MLP/model/model_1d.py",
+      "original_sha256": "6e341ed47e7898e8b9e007362480d693a152433fabb36fc8da053ae9a4ea00d9",
+      "migrated_sha256": "6e341ed47e7898e8b9e007362480d693a152433fabb36fc8da053ae9a4ea00d9",
+      "modified_for_portability": false
+    },
+    {
+      "path": "NDFitter/MLP/model/utils.py",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "migrated_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified_for_portability": false
+    },
+    {
+      "path": "NDFitter/MLP/train.py",
+      "original_sha256": "ffe70672fcdc051ce29227cdf419fb8e6f8a80730dd8bd19342c5710b922d82f",
+      "migrated_sha256": "21869080de1e881c0e2bfc9ba2860d2a1c449ee58f8f2741e9fb418b25038ab8",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/MLP/train_1d.py",
+      "original_sha256": "31ac48deaf325c3daa11f04a20d1520f021d3e8779a2e57798ad5689563e415a",
+      "migrated_sha256": "10b761018fc6eba661a0d5ec1b079cd1205b6993a31c50e698cd08970ee8f130",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/MLP/train_int.py",
+      "original_sha256": "7a669da159ae6bcdb4ac0448f511c261a6b0b7f4eb0f1fbaa498d121179e72c4",
+      "migrated_sha256": "b5bbbefbb99703687899e5636e9988d8aeba96f3a39cc6c229897e51ecbbf281",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/__init__.py",
+      "original_sha256": "ceafcc7a563b4658e69b08e4347a5184bebbcc0e92ae7f95c4ca5911bade3b78",
+      "migrated_sha256": "d3260a98562676ecd308877124123a2fb2aa918d5461288413febbfdc99523dd",
+      "modified_for_portability": true
+    },
+    {
+      "path": "NDFitter/torch_interpolation/__init__.py",
+      "original_sha256": "55071e33ead6221f443d6dd6dac77b7990e84e81e9eb468b24c79dd2b070b022",
+      "migrated_sha256": "55071e33ead6221f443d6dd6dac77b7990e84e81e9eb468b24c79dd2b070b022",
+      "modified_for_portability": false
+    },
+    {
+      "path": "NDFitter/torch_interpolation/multilinear.py",
+      "original_sha256": "699386426354b9610d8637dc2d50fc881188a80f3e0ac88c9ccdc33ca23c6330",
+      "migrated_sha256": "699386426354b9610d8637dc2d50fc881188a80f3e0ac88c9ccdc33ca23c6330",
+      "modified_for_portability": false
+    },
+    {
+      "path": "NDFitter/utils.py",
+      "original_sha256": "858c548f7d2783995b0b37e75520c1f5356bbb6882977966f1479aa14523e8ea",
+      "migrated_sha256": "858c548f7d2783995b0b37e75520c1f5356bbb6882977966f1479aa14523e8ea",
+      "modified_for_portability": false
+    }
+  ]
+}
